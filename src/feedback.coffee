@@ -97,6 +97,8 @@ feedback =
         'Names and surnames by themselves are easy to guess'
       else
         'Common names and surnames are easy to guess'
+    else if match.dictionary_name == 'user_inputs'
+      'Passwords using your personal information are easy to guess'
     else
       ''
 
